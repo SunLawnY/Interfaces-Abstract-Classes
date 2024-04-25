@@ -8,6 +8,7 @@ public abstract class Environment<T> {
     public void checkTraffic(){
 
     };
+
     public abstract void checkVehicles();
 
     public void addTraffic(T traffic) {

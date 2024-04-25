@@ -7,5 +7,12 @@ public class Sky extends Environment <Flyable>{
        }
     }
 
-
+    @Override
+    public void checkVehicles() {
+        for ( Flyable trafficObj : traffic) {
+            if (trafficObj instanceof Vehicle) {
+                System.out.println(trafficObj.getClass().getSimpleName() + " is flying!");
+            }
+        }
+    }
 }
