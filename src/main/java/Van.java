@@ -1,5 +1,9 @@
 public class Van extends Vehicle{
 
+    public Van(String direction) {
+        super(direction);
+    }
+
     @Override
     public void getSpeed() {
 

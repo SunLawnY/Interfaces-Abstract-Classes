@@ -1,6 +1,10 @@
 public class Pigeon extends Bird{
 
 
+    public Pigeon(String direction) {
+        super(direction);
+    }
+
     @Override
     public String makeSound() {
         return "";

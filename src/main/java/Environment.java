@@ -15,4 +15,7 @@ public abstract class Environment<T> {
         this.traffic.add(traffic);
     }
 
+    public List<T> getTraffic() {
+        return traffic;
+    }
 }

@@ -1,6 +1,10 @@
 public class Duck extends Bird implements Swimmable{
 
 
+    public Duck(String direction) {
+        super(direction);
+    }
+
     @Override
     public String makeSound() {
         return "";

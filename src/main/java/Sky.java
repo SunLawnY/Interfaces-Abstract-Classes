@@ -1,5 +1,6 @@
 public class Sky extends Environment <Flyable>{
 
+    static int maxSpped = 100;
 
 
     @Override

@@ -1,6 +1,10 @@
 public class Car extends Vehicle {
 
 
+    public Car(String direction) {
+        super(direction);
+    }
+
     @Override
     public void move() {
         System.out.println("Car is driving.");

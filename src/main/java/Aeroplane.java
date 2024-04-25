@@ -26,8 +26,4 @@ public class Aeroplane extends Vehicle implements Flyable {
 
     }
 
-    @Override
-    public void run() {
-        super.run();
-    }
 }

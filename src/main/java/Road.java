@@ -1,5 +1,6 @@
 public class Road extends Environment<Vehicle> {
 
+    static int maxSpped = 70;
 
     @Override
     public void checkTraffic() {

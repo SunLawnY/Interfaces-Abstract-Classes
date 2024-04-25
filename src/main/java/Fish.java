@@ -1,4 +1,8 @@
 public class Fish extends Animal implements Swimmable {
+    public Fish(String direction) {
+        super(direction);
+    }
+
     @Override
     public String makeSound() {
         return "blu blu";

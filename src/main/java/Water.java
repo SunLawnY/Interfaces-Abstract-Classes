@@ -1,5 +1,6 @@
 public class Water extends Environment<Swimmable> {
 
+    static int maxSpped = 50;
 
     @Override
     public void checkTraffic() {
