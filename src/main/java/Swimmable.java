@@ -1,4 +1,4 @@
-public interface Swimmable {
+public interface Swimmable extends Moveable {
 
 
     public default void swim(){
