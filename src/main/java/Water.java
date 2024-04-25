@@ -7,4 +7,9 @@ public class Water extends Environment<Swimmable> {
             System.out.println(trafficObj.getClass().getSimpleName() + " is swimming!");
         }
     }
+
+    @Override
+    public void checkVehicles() {
+
+    }
 }

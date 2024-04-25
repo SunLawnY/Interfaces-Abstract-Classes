@@ -6,4 +6,6 @@ public class Sky extends Environment <Flyable>{
            System.out.println(trafficObj.getClass().getSimpleName() + " is flying!");
        }
     }
+
+
 }
