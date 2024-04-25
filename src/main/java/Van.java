@@ -19,9 +19,4 @@ public class Van extends Vehicle{
     public void tick() {
 
     }
-
-    @Override
-    public void run() {
-        super.run();
-    }
 }
